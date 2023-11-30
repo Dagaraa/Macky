@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5head Macky</title>
+    <title>Macky Alert</title>
     <style>
         body {
             display: flex;
@@ -26,13 +26,14 @@
             cursor: pointer;
             background-color: #9c27b0; /* Purple button color */
             color: #fff; /* White text for better contrast */
-            border: none;
+            border: 2px solid #fff; /* White border for contrast */
             border-radius: 12px;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         button:hover {
             background-color: #7b1fa2; /* Darker purple on hover */
+            color: #ffeb3b; /* Yellow text on hover for better visibility */
         }
     </style>
 </head>
@@ -45,14 +46,14 @@
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
     <script>
-        const emailjsUserID = 'caxMEA9GA3ZLKoV_P';
-        const templateID = 'template_76bddq8';
+        const emailjsUserID = 'your_emailjs_user_id';
+        const templateID = 'your_emailjs_template_id';
 
         emailjs.init(emailjsUserID);
 
         document.getElementById("contactButton").addEventListener("click", function() {
             const templateParams = {
-                to_email: 'cwhite567@hotmail.com',
+                to_email: 'your_email@gmail.com',
                 message: 'Someone pressed the button!',
             };
 
