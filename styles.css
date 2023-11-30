@@ -5,7 +5,8 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Arial', sans-serif; /* Change to any preferred font */
-    background-color: #ffeb3b; /* Warm yellow background color */
+    background-color: #5e35b1; /* Deep purple background color */
+    color: #fff; /* White text for better contrast */
 }
 
 .button-container {
@@ -16,7 +17,7 @@ button {
     padding: 20px 40px;
     font-size: 24px;
     cursor: pointer;
-    background-color: #f44336; /* Red button color */
+    background-color: #673ab7; /* Purple button color */
     color: #fff; /* White text for better contrast */
     border: none;
     border-radius: 12px;
@@ -24,5 +25,5 @@ button {
 }
 
 button:hover {
-    background-color: #d32f2f; /* Darker red on hover */
+    background-color: #311b92; /* Darker purple on hover */
 }
